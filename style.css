@@ -3,31 +3,37 @@
   padding: 0;
 }
 
-.smallTitleUnder {
-  text-align: center;
-  font-family: Stencil Std, fantasy;
-  font-size: 30px;
-  position: static;
-  bottom: 0;
-  color: #ffffff;
+@media (min-width: 600px) {
 }
 
-.smallTitle {
-  text-align: center;
-  font-family: Stencil Std, fantasy;
-  font-size: 60px;
-  position: static;
-  bottom: 0;
-  color: rgb(95, 46, 23);
-  background-color: rgb(196, 162, 140);
-  text-shadow: rgba(148, 59, 24, 0.432) 4px 3px 0px;
-}
+@media (min-width: 980px) {
+  .smallTitleUnder {
+    text-align: left;
+    margin-left: 350px;
+    font-family: Stencil Std, fantasy;
+    font-size: 30px;
+    position: static;
+    bottom: 0;
+    color: #523a2d;
+  }
 
-.parallax {
-  background-image: url("rootbeerBackground.jpg");
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  .smallTitle {
+    text-align: center;
+    font-family: Stencil Std, fantasy;
+    font-size: 60px;
+    position: static;
+    bottom: 0;
+    color: rgb(95, 46, 23);
+    background-color: rgb(196, 162, 140);
+    text-shadow: rgba(148, 59, 24, 0.432) 4px 3px 0px;
+  }
+
+  .parallax {
+    background-image: url("rootbeerBackground.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
