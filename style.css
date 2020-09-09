@@ -3,11 +3,24 @@
   padding: 0;
 }
 
-.test {
+.smallTitleUnder {
   text-align: center;
-  font-size: 50px;
+  font-family: Stencil Std, fantasy;
+  font-size: 30px;
   position: static;
   bottom: 0;
+  color: #ffffff;
+}
+
+.smallTitle {
+  text-align: center;
+  font-family: Stencil Std, fantasy;
+  font-size: 60px;
+  position: static;
+  bottom: 0;
+  color: rgb(95, 46, 23);
+  background-color: rgb(196, 162, 140);
+  text-shadow: rgba(148, 59, 24, 0.432) 4px 3px 0px;
 }
 
 .parallax {
