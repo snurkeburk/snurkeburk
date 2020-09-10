@@ -7,12 +7,12 @@
 }
 
 @media (min-width: 980px) {
-  .buttonAbout {
+ /* .buttonAbout {
     width: 100px;
     margin-left: -4px;
-    position: absolute;
+    position: sticky;
     top: 0;
-    right: 8%;
+    float: right;
     background-color: rgb(196, 162, 140);
     border: none;
     color: white;
@@ -30,13 +30,83 @@
   .buttonAbout:hover {
     background-color: #b88568; 
     color: white;
+    z-index: 1;
   }
-  .buttonNews {
+*/
+  nav {
+    width: 100%;
+    height: 60px;
+    background-color:rgb(29, 22, 19);
+    margin-top: -10px;
+    top: 0;
+    position: sticky;
+  }
+
+  nav p {
+    font-style: oblique;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+    
+  }
+
+  nav ul{
+    float: right;
+  }
+
+  nav ul li {
+    float:left;
+    list-style: none;
+    position: relative;
+
+  }
+
+  nav ul li a {
+    font-family: Noto Sans, sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 25px 14px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: -13px;
+  }
+
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color:rgb(29, 22, 19);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  nav ul li:hover ul {
+    display: block;
+
+  }
+  nav ul li ul li {
+    width: 220px;
+    border-radius: 4px;
+  }
+
+  nav ul li ul li a{
+    padding: 20px 14px;
+  }
+  nav ul li ul li a:hover{
+    background-color: rgb(20, 16, 14);
+  }
+
+
+
+  /*.buttonNews {
     width: 100px;
     margin-left: -4px;
-    position: absolute;
+    position: sticky;
     top: 0;
-    right: 0;
+    float:right;
     background-color: rgb(196, 162, 140);
     border: none;
     color: white;
@@ -54,7 +124,7 @@
       background-color: #b88568; 
       color: white;
     }
-    
+    */
   .smallTitle {
     text-align: center;
     font-family: Stencil Std, fantasy;
@@ -69,38 +139,6 @@
     box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.36);
   }
 
-  .smallTitleUnder {
-    text-align: left;
-    margin-left: 350px;
-    font-family: Stencil Std, fantasy;
-    font-size: 45px;
-    position: static;
-    bottom: 0;
-    color: #523a2d;
-    background-color: rgb(245, 207, 176);
-    height: 500px;
-    width: 450px;
-    margin-bottom: -450px;
-  }
-
-  .rootbeerWiki {
-    font-size: 20px;
-    position: static;
-    text-align: left;
-    margin-left: 350px;
-    font-family: "Arial Black", Gadget, sans-serif;
-    color: #2e2520;
-    text-decoration: none;
-  }
-
-  .Tutorial {
-    font-size: 20px;
-    position: static;
-    text-align: left;
-    margin-left: 350px;
-    font-family: "Arial Black", Gadget, sans-serif;
-    color: #2e2520;
-  }
 
   .divVideo {
     width: 100px;
