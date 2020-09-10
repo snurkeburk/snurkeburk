@@ -6,9 +6,7 @@
 @media (min-width: 600px) {
 }
 
-
 @media (min-width: 980px) {
-
   .smallTitle {
     text-align: center;
     font-family: Stencil Std, fantasy;
@@ -19,9 +17,9 @@
     background-color: rgb(196, 162, 140);
     text-shadow: rgba(148, 59, 24, 0.432) 4px 3px 0px;
     letter-spacing: 4px;
-    -webkit-box-shadow: 5px 3px 4px 0px rgba(0,0,0,0.36); 
-    box-shadow: 5px 3px 4px 0px rgba(0,0,0,0.36);
-  } 
+    -webkit-box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.36);
+    box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.36);
+  }
 
   .smallTitleUnder {
     text-align: left;
@@ -35,7 +33,6 @@
     height: 500px;
     width: 450px;
     margin-bottom: -450px;
-    
   }
 
   .rootbeerWiki {
@@ -46,7 +43,6 @@
     font-family: "Arial Black", Gadget, sans-serif;
     color: #2e2520;
     text-decoration: none;
-
   }
 
   .Tutorial {
@@ -58,20 +54,18 @@
     color: #2e2520;
   }
 
-  .divVideo{
+  .divVideo {
     width: 100px;
     height: 50px;
     margin: 0 auto;
     margin-top: 1000px;
   }
 
-  .video{
+  .video {
     display: block;
-    border-style:none;
+    border-style: none;
   }
 
-  
-  }
   .parallax {
     background-image: url("rootbeerBackground.jpg");
     height: 500px;
