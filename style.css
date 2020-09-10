@@ -7,6 +7,54 @@
 }
 
 @media (min-width: 980px) {
+  .buttonAbout {
+    width: 100px;
+    margin-left: -4px;
+    position: absolute;
+    top: 0;
+    right: 8%;
+    background-color: rgb(196, 162, 140);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    transition-duration: 0.2s;
+    font-family: Stencil Std, fantasy;
+    z-index:99999;
+
+  }
+  
+  .buttonAbout:hover {
+    background-color: #b88568; 
+    color: white;
+  }
+  .buttonNews {
+    width: 100px;
+    margin-left: -4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(196, 162, 140);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32.7px;
+    transition-duration: 0.2s;
+    font-family: Stencil Std, fantasy;
+    z-index:99999;
+  }
+    
+    .buttonNews:hover {
+      background-color: #b88568; 
+      color: white;
+    }
+    
   .smallTitle {
     text-align: center;
     font-family: Stencil Std, fantasy;
@@ -68,6 +116,8 @@
 
   .parallax {
     background-image: url("rootbeerBackground.jpg");
+    background-color: #2e2520;
+
     height: 500px;
     background-attachment: fixed;
     background-position: center;
