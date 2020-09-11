@@ -3,11 +3,7 @@
   padding: 0;
 }
 
-@media (min-width: 600px) {
-}
-
-@media (min-width: 980px) {
- /* .buttonAbout {
+/* .buttonAbout {
     width: 100px;
     margin-left: -4px;
     position: sticky;
@@ -33,75 +29,74 @@
     z-index: 1;
   }
 */
-  nav {
-    width: 100%;
-    height: 60px;
-    background-color:rgb(29, 22, 19);
-    margin-top: -10px;
-    top: 0;
-    position: sticky;
-  }
 
-  nav p {
-    font-style: oblique;
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    font-weight: 900;
-    font-variant: small-caps;
-    color: #FFFFFF;
-    font-size: 15px;
-    line-height: 55px;
-    float: left;
-    padding: 0px 20px;
-    
-  }
+body {
+  background-color: rgb(29, 22, 19);
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(29, 22, 19);
+  margin-top: -10px;
+  top: 0;
+  position: sticky;
+}
 
-  nav ul{
-    float: right;
-  }
+nav p {
+  font-style: oblique;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-weight: 900;
+  font-variant: small-caps;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 55px;
+  float: left;
+  padding: 0px 20px;
+}
 
-  nav ul li {
-    float:left;
-    list-style: none;
-    position: relative;
+nav ul {
+  float: right;
+}
 
-  }
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
 
-  nav ul li a {
-    font-family: Noto Sans, sans-serif;
-    color: #FFFFFF;
-    font-size: 20px;
-    padding: 25px 14px;
-    display: block;
-    text-decoration: none;
-    margin-bottom: -13px;
-  }
+nav ul li a {
+  font-family: Noto Sans, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 25px 14px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: -13px;
+}
 
-  nav ul li ul {
-    display: none;
-    position: absolute;
-    background-color:rgb(29, 22, 19);
-    border-radius: 0px 0px 4px 4px;
-  }
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: rgb(29, 22, 19);
+  border-radius: 0px 0px 4px 4px;
+}
 
-  nav ul li:hover ul {
-    display: block;
+nav ul li:hover ul {
+  display: block;
+}
+nav ul li ul li {
+  width: 220px;
+  border-radius: 4px;
+}
 
-  }
-  nav ul li ul li {
-    width: 220px;
-    border-radius: 4px;
-  }
+nav ul li ul li a {
+  padding: 20px 14px;
+}
+nav ul li ul li a:hover {
+  background-color: rgb(20, 16, 14);
+}
 
-  nav ul li ul li a{
-    padding: 20px 14px;
-  }
-  nav ul li ul li a:hover{
-    background-color: rgb(20, 16, 14);
-  }
-
-
-
-  /*.buttonNews {
+/*.buttonNews {
     width: 100px;
     margin-left: -4px;
     position: sticky;
@@ -125,41 +120,41 @@
       color: white;
     }
     */
-  .smallTitle {
-    text-align: center;
-    font-family: Stencil Std, fantasy;
-    font-size: 60px;
-    position: static;
-    bottom: 0;
-    color: rgb(95, 46, 23);
-    background-color: rgb(196, 162, 140);
-    text-shadow: rgba(148, 59, 24, 0.432) 4px 3px 0px;
-    letter-spacing: 4px;
-    -webkit-box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.36);
-    box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.36);
-  }
+.smallTitle {
+  text-align: center;
+  font-family: Stencil Std, fantasy;
+  font-size: 60px;
+  position: static;
+  bottom: 0;
+  color: rgb(95, 46, 23);
+  background-color: rgb(196, 162, 140);
+  text-shadow: rgba(148, 59, 24, 0.432) 4px 3px 0px;
+  letter-spacing: 4px;
+  -webkit-box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.36);
+}
 
+.video {
+  display: block;
+  border-style: none;
+  width: 100px;
+  height: 90px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 780px;
+  float: right;
+}
 
-  .divVideo {
-    width: 100px;
-    height: 50px;
-    margin: 0 auto;
-    margin-top: 1000px;
-  }
+.parallax {
+  background-image: url("rootbeerBackground.jpg");
+  background-color: #2e2520;
 
-  .video {
-    display: block;
-    border-style: none;
-  }
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .parallax {
-    background-image: url("rootbeerBackground.jpg");
-    background-color: #2e2520;
-
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+@media (max-width: 980px) {
 }
