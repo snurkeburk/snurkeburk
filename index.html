@@ -8,7 +8,9 @@
   </head>
   <body>
     <nav>
-      <p>Isak Anderson</p>
+      <header>
+        <p>Isak Anderson</p>
+      </header>
       <ul>
         <li><a href="index.html">Hem</a></li>
         <li>
@@ -21,22 +23,21 @@
             <li><a href="#">Min recession</a></li>
           </ul>
         </li>
-        <li><a href="#">Om mig</a></li>
+        <li><a href="#rating">Rating</a></li>
         <li><a href="#">Kontakt</a></li>
       </ul>
     </nav>
-   
 
-  <div class="parallax">
-    <img class="rootbeer" src="rootbeer.png" alt="rootbeer" />
-  </div>
+    <div class="parallax">
+      <img class="rootbeer" src="rootbeer.png" alt="rootbeer" />
+    </div>
 
-  <h2 class="smallTitle">Rootbeer är gott</h2>
-
+    <h2 class="smallTitle">Rootbeer är gott</h2>
 
     <div class="video">
-
-      <iframe id="videofooter" class="iframe"
+      <iframe
+        id="videofooter"
+        class="iframe"
         width="500"
         height="315"
         src="https://www.youtube.com/embed/VdZ4C4gAYto"
@@ -44,14 +45,27 @@
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
+      <div class="footer">&copy; Rootbeer.com | Designed by Isak Anderson</div>
+    </div>
 
- 
-
-    
-      <div class="footer">
-        &copy; Rootbeer.com | Designed by Isak Anderson
-      </div>
-    
-
+    <div id="recessionContainer">
+      <h1 class="recession">Min personliga recession</h1>
+      <p class="recessionParagraph">
+        Jag tycker om Rootbeer då jag dricker det ganska sällan, oftast när jag
+        är i USA. Smaken påminner alltså mig om USA och kopplar det till bra
+        minnen. Det är därför jag gillar Rootbeer. Smaken är unik och smakar
+        inte som någonting annat jag testat. Jag hade gett 5 av 5 stjärnor om
+        det hade sålts på fler ställen i Sverige förutom speciella läskbutiker.
+      </p>
+    </div>
+    <div id="rating">
+      <img
+        class="ratingImg"
+        src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Star_rating_4.5_of_5.png"
+        alt="fem sjärnor"
+        width="200"
+        height="40"
+      />
+    </div>
   </body>
 </html>

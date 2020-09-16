@@ -3,13 +3,12 @@
   padding: 0;
 }
 
-
 body {
   background-color: rgb(29, 22, 19);
 }
 nav {
   width: 100%;
-  height: 60px;
+  height: 75px;
   background-color: rgb(29, 22, 19);
   margin-top: -10px;
   top: 0;
@@ -30,6 +29,7 @@ nav p {
 
 nav ul {
   float: right;
+  background-color: rgb(29, 22, 19);
 }
 
 nav ul li {
@@ -45,7 +45,6 @@ nav ul li a {
   padding: 25px 14px;
   display: block;
   text-decoration: none;
-  margin-bottom: -13px;
 }
 
 nav ul li ul {
@@ -69,7 +68,6 @@ nav ul li ul li a {
 nav ul li ul li a:hover {
   background-color: rgb(20, 16, 14);
 }
-
 
 .smallTitle {
   text-align: center;
@@ -95,12 +93,10 @@ nav ul li ul li a:hover {
   position: absolute;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%; 
-
+  padding-top: 56.25%;
 }
 
 .iframe {
-  
   position: absolute;
   top: 0;
   left: 0;
@@ -108,46 +104,59 @@ nav ul li ul li a:hover {
   right: 0;
   width: 30%;
   height: 40%;
-    margin: 0 auto;
-    background-color: #777;
-
+  margin: 0 auto;
+  background-color: #777;
 }
 
 .rootbeer {
   width: 20%;
   margin-top: 150px;
   height: auto;
+}
 
+.recession {
+  text-align: center;
+  color: rgb(233, 233, 233);
+  margin-top: 315px;
+  border-top: 1px solid rgb(85, 64, 51);
+  border-top-width: 3px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.recessionParagraph {
+  margin-top: 10px;
+  color: rgb(199, 198, 198);
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+#rating {
+  text-align: center;
+  margin-top: 100px;
 }
 
 .parallax {
   background-image: url("rootbeerBackground.jpg");
   background-color: #2e2520;
-
-  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 500px;
 }
-
 
 .footer {
-    background: #343a40;
-    color: #686868;
-    height: 2.5rem;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    bottom: -100%;
-    left: 0px;
-    padding-top: 20px;
-
-
+  background: #343a40;
+  color: #686868;
+  height: 2.5rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: -100%;
+  left: 0px;
+  padding-top: 20px;
 }
-
-
-
 
 @media (max-width: 980px) {
 }
